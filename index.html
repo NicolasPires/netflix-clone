@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsivodade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!---owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>  
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>  
+            </nav>
+        </div>        
+    </header>  
+    
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">GAME OF THRONES</h3>
+                <p class="descricao">Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, 
+                                     sete nobres famílias lutam pelo controle da mítica terra de Westeros, 
+                                     dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, 
+                                     cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do 
+                                     Trono de Ferro, o símbolo do poder absoluto.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                            <a href="https://www.youtube.com/watch?v=rlR4PJn8b8I" target="_blank">   
+                                ASSISTIR AGORA
+                             </a>
+                    </button>
+                    <button onclick="abrir('https://www.themoviedb.org/tv/1399-game-of-thrones/seasons?language=pt-BR')" 
+                            role="button" class="botao" >
+                        <a>                        
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </a>
+                    </button> 
+                </div>                  
+            </div>            
+        </div>       
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <img class="box-filme" src="img/min1.jpg" alt="">
+                <a href="https://www.youtube.com/watch?v=x4_EAlRLY_E" target="_blank">Trailler</a> 
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min2.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=jCCGGYvFjlw" target="blank">Trailler</a> 
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min3.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=621pfj0EfIc" target="blank">Trailler</a>                
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min4.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=tUeo0RZN9kM" target="blank">Trailler</a>
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min5.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=3vYpPwBKJ28" target="blank">Trailler</a>
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min6.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=LiNIFDZb6BI" target="blank">Trailler</a>
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min7.jpg" alt="">
+                <a href="https://www.youtube.com/watch?v=IFQBlVV0a14" target="blank">Trailler</a> 
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min8.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=c1bFp2617f8" target="blank">Trailler</a>
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min9.jpg" alt=""> 
+                <a href="https://www.youtube.com/watch?v=06rueu_fh30" target="blank">Trailler</a>
+            </div>
+            <div class="item"> <img class="box-filme" src="img/min10.jpg" alt="">
+                <a href="https://www.youtube.com/watch?v=tYX8lnV_feo" target="blank">Trailler</a> 
+            </div>        
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/de9a4fbd73.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script> 
+    <script src="js/Owl/owl.carousel.min.js"></script> 
+    <script src="js/Owl/setup.js"></script>  
+    <script src="js/funcoes.js"></script>  
+
+</body>
+</html>
